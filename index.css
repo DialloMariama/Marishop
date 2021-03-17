@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	font-family: 'Open Sans', sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+.navbar{
+	display: inline-block;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar .accueil{
+	color: #000;
+	float: left;
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 200;
+	margin-right: 300px;
+}
+.navbar .accueil span{
+	color: gold;
+}
+.menu{
+	float: right;
+	display: inline-block;
+	margin-right: 25px;
+
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	color: gold;
+}
+.menu li a{
+	color: #000;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 40px;
+	text-decoration: none;
+	text-align: center;
+	list-style: none;
+	
+}
+.menu li a:hover{
+	color: gold;
+}
+.sous{
+	display: none;
+	background-color:white;
+	position: absolute;
+	margin-top: 10px;
+	width: 250px;
+	z-index: 1000;
+}
+.menu ul li:hover .sous{
+	display: block;
+}
+.sous li{
+	float: none;
+	width: 100%;
+	text-align: left;
+}
+.sous a{
+	padding: 10px;
+	border-bottom: none;
+}
+.sous a:hover{
+	border-bottom: none;
+}
+.symbole{
+	font-size: 10px;
+}
+/* header */
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header h1{
+	font-size: 50px;
+	max-width: 600px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+/* fin du header */
+/* section principale */
+.main{
+	margin: 20px;
+	padding-top: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.photos{
+	display: flex;
+	flex-wrap: wrap;
+}
+.photos .sous-photo{
+	margin-right: 20px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+.photos .sous-photo img{
+	width: 350px;
+	cursor: pointer;
+	border: 8px solid #fff;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.photos .sous-photo .mini-photo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.photos .sous-photo .photo-description p{
+	margin-top: -2px;
+}
+/* fin de section principale */
+/*pied de page*/
+.footer{
+	margin-top: 100px;
+	background-color: #000;
+	color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px;
+}
+.footer .social-media{
+	display: flex;
+}
+.footer .social-media p{
+	margin-right: 15px;
+	border: 1px solid #000;
+	border-radius: 100%;
+	padding: 5px;
+	text-align: center;
+	width: 20px;
+	cursor: pointer;
+
+}
+@media screen and (max-width: 640px){
+	nav .navbar .link{
+		display: none;
+	}
+}
+/*Vêtement*/
+.vêtements{
+	display: flex;
+	flex-wrap: wrap;
+}
+.vêtements .sous-vêtements{
+	margin-right: 20px;
+}
+.vêtements .sous-vêtements img{
+	width: 350px;
+	cursor: pointer;
+	border: 8px solid #fff;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.vêtements .sous-vêtements .mini-vêtements{
+	
+	
+}
+.info1{
+	height: 700px;
+	background:url('WhatsApp Image 2021-02-12 at 17.41.31.jpeg') ;
+	display: flex;
+	width: 100%;
+	background-repeat:repeat;
+	 
+	
+}
+.info1 .div3{
+	color: white;
+	margin: auto 120px;
+
+}
+.info1 .div4 .divp1{
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+.info1 .div4 .divp1 a{
+	color: white;
+	border: 2px solid pink;
+	border-radius:10px; 
+	background-color: black;
+}
+.info1 .div4 .divp3{
+	font-size: 40px;
+	font-weight: 700;
+}
+.info1 .div4 .divp3 span{
+	color: maroon;
+}
